@@ -9,6 +9,7 @@ Dans le dépôt vous trouverez le pdf Main Board_V2.0.1_Schematic.PDF qui corres
 ## Microcontrolleur du dribbler
 
 ![alt text](image.png)
+![image](https://github.com/user-attachments/assets/23014840-5b39-4a6e-8232-77ea5e358f85)
 
 STM32F401RCT6
 
