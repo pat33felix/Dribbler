@@ -88,7 +88,8 @@ Nous avons utiliser les outils de débogage de notre IDE pour tester et débogue
 
 ## Code du dribbler
 
-Dans le dépôt vous trouverez le code du dribbler dans le fichier 
+Dans le dépôt vous trouverez le code du dribbler dans le zip dribbler-2023-master.zip. Après avoir déployé le projet, il se trouve que des éléments sont manquants. On peut citer :
+- 
 
 
 
