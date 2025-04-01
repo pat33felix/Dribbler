@@ -2,7 +2,7 @@
 
 ## Carte NAMeC
 
-Main Board_V2.0.1_Schematic.PDF est le schéma électronique de la MainBoard des robots SSL. La page 4 donne des éléments sur la partie concernant le dribbler.
+Dans le dépôt vous trouverez le pdf Main Board_V2.0.1_Schematic.PDF qui correspond au schéma électronique de la main board des robots SSL. La page 4 (ci-dessous) donne les éléments concernant plus particulièrement le dribbler.
 
 <img width="821" alt="image" src="https://github.com/user-attachments/assets/f8aa2cb5-94fa-464e-87f9-b6fb41876f88" />
 
