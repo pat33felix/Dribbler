@@ -103,6 +103,44 @@ Procédure réalisée :
 	- main : project et C/C++ Application verifier que c'est le bon projet
  	- debugger : GDB port number régler à 3333; SWD : 8000 kHz speed, Device : STM32F40RCT6; paramettre identique au .cfg
   	- Serial Wire Viewer : enable et t
+ 
+Voici le résultat obtenu lors du flashage :
+```sh
+SEGGER J-Link GDB Server V8.12c Command Line Version
+JLinkARM.dll V8.12c (DLL compiled Jan 22 2025 12:55:59)
+Command line: -port 3333 -s -device STM32F401RCT6 -endian little -speed 8000 -vd
+-----GDB Server start settings-----
+GDBInit file: none
+GDB Server Listening port: 3333
+SWO raw output listening port: 2332
+Terminal I/O port: 2333
+Accept remote connection: localhost only
+Generate logfile: off
+Verify download: on
+Init regs on start: off
+Silent mode: off
+Single run mode: on
+Target connection timeout: 0 ms
+------J-Link related settings------
+J-Link Host interface: USB
+J-Link script: none
+J-Link settings file: none
+------Target related settings------
+Target device: STM32F401RCT6
+Target device parameters: none
+Target interface: JTAG
+Target interface speed: 8000kHz
+Target endian: little
+
+Connecting to J-Link...
+
+J-Link is connected.
+
+Failed to get index for device name 'STM32F401RCT6'.GDBServer will be closed...
+Shutting down...
+Could not connect to target.
+Please check power, connection and settings.
+```
   
  
 
