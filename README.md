@@ -81,15 +81,30 @@ Par exemple, pour notre carte de développement `STM32F3DISCOVERY`, on pourra ra
 https://www.st.com/en/development-tools/st-link-server.html#get-software
 
 6. **Déboguer et tester**
-Nous avons utiliser les outils de débogage de notre IDE pour tester et déboguer notre application. Par exemple :
+Nous avons utilisé les outils de débogage de notre IDE pour tester et déboguer notre application. Par exemple :
 - Mettre des points d'arrêt
 - Regarder l'évolution d'une variable
 - Etc.
 
-## Code du dribbler
+## Étapes pour utiliser STM32CubeMX avec le code du dribbler de NAMeC
+
+### Problèmes dans le code
 
 Dans le dépôt vous trouverez le code du dribbler dans le zip dribbler-2023-master.zip. Après avoir déployé le projet, il se trouve que des éléments sont manquants. On peut citer :
-- dossier vide nom: nanopb et sensor-data-protocol 
+- dossiers vides : nanopb et sensor-data-protocol
+- des fichiers manquants...
+
+### Problèmes pour flasher le code
+
+procédure réalisé
+vérification version Jlink 
+vérification probe Jlink 
+Run configuration
+	main : project et C/C++ Application verifier que c'est le bon projet
+ 	debugger : GDB port number régler à 3333; SWD : 8000 kHz speed, Device : STM32F40RCT6; paramettre identique au .cfg
+  	Serial Wire Viewer : enable et t
+  
+ 
 
 
 
