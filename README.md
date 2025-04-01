@@ -96,13 +96,13 @@ Dans le dépôt vous trouverez le code du dribbler dans le zip dribbler-2023-mas
 
 ### Problèmes pour flasher le code
 
-procédure réalisé
-vérification version Jlink 
-vérification probe Jlink 
-Run configuration
-	main : project et C/C++ Application verifier que c'est le bon projet
- 	debugger : GDB port number régler à 3333; SWD : 8000 kHz speed, Device : STM32F40RCT6; paramettre identique au .cfg
-  	Serial Wire Viewer : enable et t
+Procédure réalisée :
+- vérification version Jlink 
+- vérification probe Jlink 
+- Run configuration :
+	- main : project et C/C++ Application verifier que c'est le bon projet
+ 	- debugger : GDB port number régler à 3333; SWD : 8000 kHz speed, Device : STM32F40RCT6; paramettre identique au .cfg
+  	- Serial Wire Viewer : enable et t
   
  
 
