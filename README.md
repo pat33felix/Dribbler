@@ -105,7 +105,8 @@ Procédure réalisée :
   	- Serial Wire Viewer : enable et t
  
 Voici le résultat obtenu lors du flashage :
-```sh
+
+```csh
 SEGGER J-Link GDB Server V8.12c Command Line Version
 JLinkARM.dll V8.12c (DLL compiled Jan 22 2025 12:55:59)
 Command line: -port 3333 -s -device STM32F401RCT6 -endian little -speed 8000 -vd
